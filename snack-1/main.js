@@ -7,7 +7,7 @@
 let numb1= prompt("Number1")
 let numb2= prompt("Number2")
 
-console.log(numb1, numb2);
+
 
 if (numb1 > numb2) {
     console.log(numb1);
