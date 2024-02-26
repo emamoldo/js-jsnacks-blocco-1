@@ -23,6 +23,7 @@ for (let i = 0; i < 6; i++) {
 }
 // SE un numero è dispari aggiungerlo all'Array "dispari";
 // per aggiungere elementi all'Array usiamo unshift() -> dispari.unshift(.....);
+
 console.log(dispari);
 */
 
@@ -31,7 +32,7 @@ let i = 0;
 while (i <6) {
     const numbers = Number(prompt("Write your Numers"));
     console.log(numbers);
-    
+
     if (numbers % 2 === 0) {
         console.log("è pari");
     } else {
